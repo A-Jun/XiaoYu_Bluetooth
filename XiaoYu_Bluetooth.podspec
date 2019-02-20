@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XiaoYu_Bluetooth'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of XiaoYu_Bluetooth.'
+  s.version          = '0.1.1'
+  s.summary          = '小羽蓝牙'
   s.swift_version    = '4.1'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -40,4 +40,5 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'RJBluetooth_Mediator'
+  s.dependency 'iOSDFULibrary'
 end

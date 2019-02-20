@@ -138,12 +138,16 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/RJBluetooth/RJBluetooth.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RJBluetooth_Mediator/RJBluetooth_Mediator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XiaoYu_Bluetooth/XiaoYu_Bluetooth.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Zip/Zip.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/iOSDFULibrary/iOSDFULibrary.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RJBluetooth/RJBluetooth.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/RJBluetooth_Mediator/RJBluetooth_Mediator.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/XiaoYu_Bluetooth/XiaoYu_Bluetooth.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Zip/Zip.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/iOSDFULibrary/iOSDFULibrary.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

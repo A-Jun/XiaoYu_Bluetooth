@@ -326,6 +326,8 @@
 				"${BUILT_PRODUCTS_DIR}/RJBluetooth/RJBluetooth.framework",
 				"${BUILT_PRODUCTS_DIR}/RJBluetooth_Mediator/RJBluetooth_Mediator.framework",
 				"${BUILT_PRODUCTS_DIR}/XiaoYu_Bluetooth/XiaoYu_Bluetooth.framework",
+				"${BUILT_PRODUCTS_DIR}/Zip/Zip.framework",
+				"${BUILT_PRODUCTS_DIR}/iOSDFULibrary/iOSDFULibrary.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -333,6 +335,8 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RJBluetooth.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RJBluetooth_Mediator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XiaoYu_Bluetooth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Zip.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOSDFULibrary.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
